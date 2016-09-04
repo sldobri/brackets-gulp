@@ -1,4 +1,25 @@
 
+# Estou fazendo pequenas modificações neste plugin
+
+# para que este plugin funcione, voce tem abrir o brackets pela linha de comando
+ex:
+$ brackets  .
+
+
+
+----------------------------------------------------------------------------------------------
+
+# I'm making minor modifications to this plugin
+
+# For this plugin to work, you have to open the brackets on the command line
+ex:
+$ Brackets.
+
+
+
+
+
+----------------------------------------------------------------------------------------------
 # == Depreceate: This extension is no longer supported == 
 
 If do you want mantain this extension, please, contact me.
