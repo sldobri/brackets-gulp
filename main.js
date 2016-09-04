@@ -167,6 +167,7 @@ define(function (require, exports, module) {
     function loadGulpTasksToMenu() {
         DocumentManager.on('documentSaved', function () {
             if (gulpRoot && bracketsOnsave) {
+                $gulpConsole.html('');
                 gulpDomain.exec('gulp', 'brackets-onsave', gulpRoot, false);
             }
         });
@@ -183,6 +184,7 @@ define(function (require, exports, module) {
                 }
 
                 CommandManager.register(defaultTitle, 'djb.brackets-gulp.gulp', function () {
+                    $gulpConsole.html('');
                     gulpDomain.exec('gulp', defaultTask, gulpRoot, false);
                 });
             }
@@ -195,6 +197,7 @@ define(function (require, exports, module) {
             if (task && task !== (bracketsDefault !== null ? 'brackets-default' : 'default')) {
                 if (!CommandManager.get('djb.brackets-gulp.' + task)) {
                     CommandManager.register(task, 'djb.brackets-gulp.' + task, function () {
+                        $gulpConsole.html('');
                         gulpDomain.exec('gulp', task, gulpRoot, false);
                     });
                 }
