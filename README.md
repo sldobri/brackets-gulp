@@ -1,7 +1,7 @@
 
 # Estou fazendo pequenas modificações neste plugin
 
-# para que este plugin funcione, voce tem abrir o brackets pela linha de comando
+### para que este plugin funcione, voce tem abrir o brackets pela linha de comando
 ex:
 $ brackets  .
 
@@ -11,9 +11,9 @@ $ brackets  .
 
 # I'm making minor modifications to this plugin
 
-# For this plugin to work, you have to open the brackets on the command line
+### For this plugin to work, you have to open the brackets on the command line
 ex:
-$ Brackets.
+$ Brackets .
 
 
 
